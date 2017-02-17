@@ -264,8 +264,7 @@ namespace Far_New
         }
         private static void OnChanged(object source, FileSystemEventArgs e)
         {
-            Console.SetCursorPosition(0, 56);
-            // Specify what is done when a file is changed, created, or deleted.
+            Console.SetCursorPosition(0, 56);           
             Console.WriteLine("File: " + e.FullPath + " " + e.ChangeType);
         }
 
